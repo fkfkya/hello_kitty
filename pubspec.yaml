@@ -1,0 +1,32 @@
+name: hello_kitty
+description: "App for like/dislike cats."
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+
+dependencies:
+  cached_network_image: ^3.3.0
+  cupertino_icons: ^1.0.8
+  flutter:
+    sdk: flutter
+  flutter_swipe_button: ^1.0.0
+  http: ^1.2.0
+  provider: ^6.1.1
+
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/icons/
+
+  uses-material-design: true
