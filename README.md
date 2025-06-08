@@ -1,6 +1,6 @@
 # hello_kitty
 
-A new Flutter project.
+Приложение с оцениванием котиков
 
 ## Getting Started
 
